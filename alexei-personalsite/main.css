@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Plaster');
+
+
 .jumbotron{
     text-align:center;
+    font-family: 'Permanent Marker', cursive;
+    
+    color:white; 
+   
 }
+.first{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    background-color: lightslategray;
+    padding-top:50px;
+}
+ .first1{
+    background-image: url("background3.jpg");
+    color:gray;  
+    padding-top:50px;
+    margin-top:-50px;
+    margin-bottom: -93px;  
+    background-size: cover;
+}
+.second{
+    padding-bottom:50px;
+    padding-top:50px;
+}
+ 
