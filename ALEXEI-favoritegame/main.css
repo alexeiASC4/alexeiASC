@@ -1,0 +1,25 @@
+*{
+   
+}
+.first{
+    background-color: black;
+    color:red;
+    margin-top: -25px;
+    
+    
+    
+}
+.second{
+    background-color: black;
+    color:red;
+    margin-top: -6px;
+}
+
+.jumbotron{
+    text-align: center;
+    
+    background-image: url("assets/asphalt1.jpg");
+     margin-top:-20px;
+     color:red;
+}
+
