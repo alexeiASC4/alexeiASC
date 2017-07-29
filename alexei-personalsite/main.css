@@ -13,17 +13,50 @@
     text-align: center;
     background-color: lightslategray;
     padding-top:50px;
+    text-align: center;
+    margin-bottom: 100px;
+    color:black;
 }
- .first1{
+.first1{
     background-image: url("background3.jpg");
-    color:gray;  
+    color:gray;
     padding-top:50px;
+    padding-bottom:50px;
     margin-top:-50px;
     margin-bottom: -93px;  
     background-size: cover;
+    text-align: center;
+
 }
 .second{
-    padding-bottom:50px;
+     
+    padding-top:100px;
+    background-color: lightslategray;
+    color:black;
+    
+    
+}
+
+
+html{
+    background-color: lightslategray;
+}
+h3{
     padding-top:50px;
 }
- 
+
+
+.carousel-indicators{
+    padding-bottom: 50px;
+    margin-top: -50px;
+    position:absolute;
+}
+.first2{
+    padding-bottom: 50px;
+    color:black;
+}
+.caption{
+    background-color:#778899;
+    border: 10px solid lightslategray;
+    border-radius: 10px;
+}
