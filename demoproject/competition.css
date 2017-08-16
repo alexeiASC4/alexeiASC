@@ -1,8 +1,6 @@
 
 body{
-    background:url("assets/background1.svg"); 
-    background-size:cover; 
-    color:white; 
+     
     margin:auto;    
 }
 .first{
@@ -10,5 +8,11 @@ body{
     text-align:center;
 }
 .second{
+    padding-top:50px;
     text-align: center;
+}
+
+.third{
+    text-align: center;
+    padding-top:50px;
 }
