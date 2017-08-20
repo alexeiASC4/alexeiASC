@@ -2,7 +2,7 @@ var x=300;
 var y= 571;
 var x2=x;
 var x3=0;
-
+var something = 5;
 
 
 var a1 = {
@@ -84,26 +84,32 @@ function draw(){
         if(bullets[i][0]>=aliens[0].x && bullets[i][0]<=aliens[0].x+25 && bullets[i][1]<=aliens[0].y+25){
             aliens[0].shown=1;
             bullets.splice(i,1);
+            something--;
         }
         else if(bullets[i][0]>=aliens[1].x && bullets[i][0]<=aliens[1].x+25 && bullets[i][1]<=aliens[1].y+25){
             aliens[1].shown=1;
             bullets.splice(i,1);
+            something--;
         }
         else if(bullets[i][0]>=aliens[2].x && bullets[i][0]<=aliens[2].x+25 && bullets[i][1]<=aliens[2].y+25){
             aliens[2].shown=1;
             bullets.splice(i,1);
+            something--;
         }
         else if(bullets[i][0]>=aliens[3].x && bullets[i][0]<=aliens[3].x+25 && bullets[i][1]<=aliens[3].y+25){
             aliens[3].shown=1;
             bullets.splice(i,1);
+            something--;
         }
         else if(bullets[i][0]>=aliens[4].x && bullets[i][0]<=aliens[4].x+25 && bullets[i][1]<=aliens[4].y+25){
             aliens[4].shown=1;
             bullets.splice(i,1);
+            something--;
         }
         else if(bullets[i][0]>=aliens[5].x && bullets[i][0]<=aliens[5].x+25 && bullets[i][1]<=aliens[5].y+25){
             aliens[5].shown=1;
             bullets.splice(i,1);
+            something--;
         }
     }
     
@@ -111,7 +117,10 @@ function draw(){
         bullets[c][1]-=5;
         rect(bullets[c][0],bullets[c][1],5,5);
     }
-   
+   if (something<-5){
+       text("You Win!",150,200);
+        noLoop();
+   }
     
 }
 function keyPressed() {

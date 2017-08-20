@@ -11,7 +11,7 @@
 .first{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    background-color: lightslategray;
+    background-color: #E5E5FF;
     padding-top:50px;
     text-align: center;
     margin-bottom: 100px;
@@ -20,7 +20,7 @@
 .first1{
     
     background-image: url("https://68.media.tumblr.com/c6e37502d4da22a4761c9f3263a43c32/tumblr_nj76ot5V451tcuj64o1_400.gif");
-    color:gray;
+    color:#E5E5FF;
     padding-top:50px;
     padding-bottom:50px;
      margin-top:-50px; 
@@ -33,7 +33,7 @@
 .second{
      
     padding-top:100px;
-    background-color: lightslategray;
+    background-color: #E5E5FF;
     color:black;
     
     
@@ -41,7 +41,7 @@
 
 
 html{
-    background-color: lightslategray;
+    background-color: #E5E5FF;
 }
 h3{
     padding-top:50px;
@@ -54,7 +54,7 @@ h3{
     color:black;
 }
 .caption{
-    background-color:#778899;
-    border: 10px solid lightslategray;
+    background-color:#E5E5FF;
+    border: 10px solid #E5E5FF;
     border-radius: 10px;
 }

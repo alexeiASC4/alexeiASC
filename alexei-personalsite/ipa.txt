@@ -1,6 +1,0 @@
-AIzaSyAcbzROtBvbovA0KNiX3iE36crFQXM0Fpo
-https://maps.googleapis.com/maps/api/staticmap?center=Australia&size=640x400&style=element:labels|visibility:off&style=element:geometry.stroke|visibility:off&style=feature:landscape|element:geometry|saturation:-100&style=feature:water|saturation:-100|invert_lightness:true&key=AIzaSyAcbzROtBvbovA0KNiX3iE36crFQXM0Fpo
-
-https://maps.googleapis.com/maps/api/staticmap?center=40.7425550,-74.0060840&size=640x400&style=element:labels|visibility:off&style=element:geometry.stroke|visibility:off&style=feature:landscape|element:geometry|saturation:-100&style=feature:water|saturation:-100|invert_lightness:true&key=AIzaSyAcbzROtBvbovA0KNiX3iE36crFQXM0Fpo
-
-https://maps.googleapis.com/maps/api/staticmap?center=40.7051600,-74.0117500&zoom=18&size=600x300&maptype=roadmap&markers=icon:http://cdn.minecraft-mp.com/images/favicon/72682.png?ts=1496729768|40.7051600,-74.0117500&key=AIzaSyAcbzROtBvbovA0KNiX3iE36crFQXM0Fpo

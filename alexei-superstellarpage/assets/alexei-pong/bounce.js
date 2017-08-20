@@ -59,3 +59,16 @@ function draw(){
     rect(x3,575,200,5);
     ellipse(x,y,50,50);
 }
+function myFunction(){
+    setup();
+    draw();
+}
+
+$(document).ready(function()
+{
+    $("#resetBtn").click(function()
+    {
+        myFunction();
+    });
+
+});
